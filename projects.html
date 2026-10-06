@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Sekyen Sati</title>
+<meta name="description" content="Three projects: SwiftMarketplace, the exam simulator suite, and this portfolio and planner.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="nav-row">
+    <a href="index.html" class="brand"><span class="mark">S</span> Sekyen Sati</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+    <nav class="primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="planner.html">Planner</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section>
+  <div class="wrap">
+    <p class="eyebrow-line">Selected work</p>
+    <h1>Projects</h1>
+    <p class="lede">Three things I've built — one live in production, one used to prepare for my own
+    exams, and one that's this site itself.</p>
+  </div>
+</section>
+
+<section class="bordered-top">
+  <div class="wrap">
+
+    <article class="project-row">
+      <div class="shot">
+        <img src="images/project-swiftmarketplace.svg" alt="Mockup of the SwiftMarketplace escrow dashboard showing balance, active orders, and blocked fraud flags">
+      </div>
+      <div>
+        <h3>SwiftMarketplace</h3>
+        <p>A trust-first online marketplace built to solve Nigeria's online trading fraud problem.
+        Buyers and sellers trade through SM SafePay, an escrow system that only releases funds on
+        confirmed delivery, backed by an in-house pricing engine and an AI assistant for support.</p>
+        <div class="project-meta">
+          <ul class="tag-list"><li>React / Vite</li><li>Flask &amp; Node.js</li><li>MongoDB Atlas</li><li>Flutterwave</li></ul>
+        </div>
+        <div class="project-links">
+          <a href="https://swiftmarketplace.net" target="_blank" rel="noopener">Visit site &#8599;</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-row">
+      <div class="shot">
+        <img src="images/project-examsim.svg" alt="Mockup of an adaptive practice exam interface with a question, answer choices, and a domain score chart">
+      </div>
+      <div>
+        <h3>Exam simulator suite</h3>
+        <p>Three browser-based practice tools I built while preparing for my own exams: an adaptive
+        CAT-style engine for the ISC2 Certified in Cybersecurity exam, an IELTS Academic and
+        General Training simulator, and a combined bank of 490 questions across all eight
+        first-semester MIVA courses.</p>
+        <div class="project-meta">
+          <ul class="tag-list"><li>JavaScript</li><li>Adaptive testing</li><li>LocalStorage</li></ul>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-row">
+      <div class="shot">
+        <img src="images/project-portfolio.svg" alt="Mockup of the academic planner task list used on this site">
+      </div>
+      <div>
+        <h3>This portfolio &amp; academic planner</h3>
+        <p>The site you're looking at — my COS 106 term project. A five-page responsive site built
+        with plain HTML, CSS, and JavaScript, including a fully interactive task planner with
+        add, complete, and delete, and a validated contact form.</p>
+        <div class="project-meta">
+          <ul class="tag-list"><li>HTML5</li><li>CSS Grid &amp; Flexbox</li><li>Vanilla JS</li></ul>
+        </div>
+        <div class="project-links">
+          <a href="planner.html">Open the planner</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>&copy; <span id="year"></span> Sekyen Sati. COS 106 term project.</span>
+    <span><a href="contact.html">Get in touch</a></span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
