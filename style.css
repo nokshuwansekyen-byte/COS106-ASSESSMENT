@@ -389,3 +389,4 @@ footer.site .wrap{ display:flex; justify-content:space-between; flex-wrap:wrap; 
 video.intro{
   width:100%; border:1px solid var(--ink-line); border-radius:4px; background:#000;
 }
+.avatar-frame img{ object-position: center 22%; }
